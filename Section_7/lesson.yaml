@@ -1,0 +1,41 @@
+- Class: meta
+  Course: Les bases de la programmation en R
+  Lesson: Section 7
+  Author: Valentina Porcu
+  Type: Standard
+  Organization: DataWiring
+  Version: 2.4.3
+
+- Class: text
+  Output: Dans cette leçon, nous aborderons un concept plutôt simple finalisé au téléchargement de fichiers
+  
+
+- Class: mult_question
+  Output: Laquelle, parmi ces fonctions, nous permet de télécharger un fichier .csv sans importer d'autres paquets?
+  AnswerChoices: read.csv(); str() ; read.xlsx()
+  CorrectAnswer: read.csv()
+  AnswerTests: omnitest(correctVal='read.csv()')
+  Hint: read.csv()
+  
+- Class: mult_question
+  Output: Quelle fonction nous permet d'entrer les données à la main?  AnswerChoices: scan(); read_delim() ; gdata
+  CorrectAnswer: scan()
+  AnswerTests: omnitest(correctVal='scan()')
+  Hint: scan()
+
+- Class: mult_question
+  Output: Quel package nous permet d'importer des données depuis SPSS?
+  AnswerChoices: haven; read_delim() ; tuneR
+  CorrectAnswer: haven
+  AnswerTests: omnitest(correctVal='haven')
+  Hint: haven
+
+- Class: mult_question
+  Output: Quelle fonction nous permet d'enregistrer un fichier .csv sur notre ordinateur?
+  AnswerChoices: write.csv(); write_foreign() ; ggplot
+  CorrectAnswer: write.csv()
+  AnswerTests: omnitest(correctVal='write.csv()')
+  Hint: write.csv()
+
+- Class: text
+  Output: Très bien! Passons alors à la leçon suivante
